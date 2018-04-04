@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('bg-pomodoro-clock.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;  
+}
+ 
+h1 {
+  font-family: 'Lobster', arial;
+  font-size: 6em;
+  color: #9cb805;
+  text-shadow: black 3px 3px ;
+}
+
+.info-bg {
+  width: 45em;
+  height: 30em;
+  background-color: #f9d7cc;  
+  max-width: 50em;
+  margin: 3em auto 4em;
+  padding: 2em;
+  -webkit-box-shadow:
+   0 0 0 7px silver,
+   0 -35px 0 -10px #ff5600,
+   35px 0 0 -10px #9cb805,
+   0 35px 0 -10px #ff5600,
+   -35px 0 0 -10px #9cb805;
+          box-shadow:
+   0 0 0 7px silver,
+   0 -35px 0 -10px #ff5600,
+   35px 0 0 -10px #9cb805,
+   0 35px 0 -10px #ff5600,
+   -35px 0 0 -10px #9cb805;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;   
+}   
+
+.header-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}       
+        
+.top {
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: center;
+  color: #4b6d65;
+  letter-spacing: 2px;
+}   
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;  
+}     
+
+span {
+  margin: 5px 15px;
+  display: block;
+  width: 35px;
+  font-size: 2.2em;
+}   
+
+.btn-tm {    
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+          box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FB9575), color-stop(48%, #F45A38), color-stop(52%, #EA1502), to(#F02F17));
+  background: -webkit-linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  background: -o-linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  margin-top: 8px;
+}   
+
+.btn-tm:active {
+  outline: none;
+  top: .1em;
+  left: .1em;
+  -webkit-box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+          box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.content-round {
+  width: 16em;
+  height: 16em;
+  background: inherit;
+  border-radius: 50%;
+  border: 4px solid #9cb805;
+  display: block; 
+}
+
+.bg {
+  height: 60px;
+  font-family: FontAwesome;
+  font-size: 37px;
+  color: #ff5600;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.clock-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-align: center;
+  color: #4b6d65;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.clock-time {
+  font-size: 4.3em;
+  font-weight: bold;
+  color: #4b6d65;
+  display: inline-block;
+  margin-left: 33px;
+}
+
+.main-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 9px;
+}
+
+.ctrl {
+  width: 12em;
+  font-size: 1.2em;
+}

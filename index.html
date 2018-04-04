@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Pomodoro Clock</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="style.css">	
+	
+</head>
+
+<body>
+	
+	<header>
+		<h1 class="text-center">Pomodoro Clock</h1>
+	</header>
+
+	<div class="info-bg">
+		<div class="container">		
+
+			<div class="header-time">    
+
+				<div class="left">
+					<div class="top">Break Time</div>
+					<div class="bottom">
+						<button class="break-min btn-tm">-</button>
+						<span class="break-time">5</span>
+						<button class="break-plus btn-tm">+</button>
+					</div>
+				</div>
+
+				<div class="right">
+					<div class="top">Session Time</div>
+					<div class="bottom">
+						<button class="session-min btn-tm">-</button> 
+						<span class="session-time">25</span>
+						<button class="session-plus btn-tm">+</button>
+					</div>      
+				</div>
+
+			</div><!-- End header-time -->
+
+			<div class="content-round center-block">			
+				<p class="bg text-center" id="hourglass">&#xf251;</p>
+				<p class="clock-text">Session</p>
+				<div class="clock-time">25:00</div>				
+			</div>
+
+			<div class="main-btn">			
+				<button class="ctrl btn-succ btn-tm">Start</button>    	
+			</div>
+
+		</div>
+	</div><!-- End Info-bg -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
